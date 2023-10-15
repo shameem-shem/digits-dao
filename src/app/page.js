@@ -6,15 +6,16 @@ import Features from "@/components/features";
 import FAQ from "@/components/faq";
 import RecentTweeks from "@/components/recentTweeks";
 import { getData, treasury, twitterFeedsIds } from "@/data";
+// import {tres}
 
 export default async function Home() {
     const tweets = await getData("twitter");
-    const treasury = await getData("treasury");
+    // const treasury = await getData("treasury");
    
     return (
         <main className="">
             <Banner />
-            <Treasury treasury={treasury} /> 
+            {/* <Treasury treasury={treasury} />  */}
             <About />
             <Statistics />
             <Features />
