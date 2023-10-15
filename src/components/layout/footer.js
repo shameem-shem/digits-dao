@@ -5,10 +5,10 @@ import { footerNav } from "@/data/navigations";
 import SocialNav from "../socialNav";
 export default function footer() {
     return (
-        <footer className="py-11">
+        <footer className="sm:py-11 py-6">
             <div className="container">
-                <div className="flex items-center">
-                    <ul className="flex gap-12">
+                <div className="flex items-center flex-col md:flex-row gap-6">
+                    <ul className="flex sm:gap-12 gap-6">
                         {footerNav.map((fl, fi) => {
                             return (
                                 <li key={fi}>
@@ -17,7 +17,7 @@ export default function footer() {
                             );
                         })}
                     </ul>
-                    <div className="ml-auto flex items-center gap-12">
+                    <div className="ml-auto flex items-center gap-12 mr-auto md:mr-0">
                         <SocialNav />
                         <Image
                             src={logo}

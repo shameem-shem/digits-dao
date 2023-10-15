@@ -5,10 +5,10 @@ export default function About() {
     return (
         <section className="pt-[26px] pb-11 bg-section-gradient bg-no-repeat relative overflow-hidden before:absolute before:top-[84px] before:left-[-240px] before:w-[1022px] before:h-[718px] before:bg-line before:bg-left before:bg-no-repeat before:bg-contain">
             <div className="container relative z-10">
-                <h3 className="text-37 font-bold text-center mb-[4.5rem]">
+                <h3 className="md:text-37 text-3xl font-bold text-center lg:mb-[4.5rem] sm:mb-10 mb-4">
                     About Digits DAO
                 </h3>
-                <div className="grid grid-cols-2 mb-7">
+                <div className="grid md:grid-cols-2 mb-7">
                     <div className="flex justify-end">
                         <Image
                             src={aboutImg}
@@ -18,7 +18,7 @@ export default function About() {
                         />
                     </div>
                     <div>
-                        <h2 className="text-51 font-bold mb-7">
+                        <h2 className="md:text-51 text-41 font-bold mb-7">
                             What is Digits DAO?
                         </h2>
                         <p className="mb-4">
@@ -36,7 +36,7 @@ export default function About() {
                         </p>
                     </div>
                 </div>
-                <h3 className="text-41 font-bold text-center mb-11">
+                <h3 className="md:text-41 text-37 font-bold text-center mb-11">
                     About Digits DAO
                 </h3>
                 <Image

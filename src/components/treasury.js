@@ -14,23 +14,23 @@ export default function Treasury(props) {
         treasuryPercentage,
     } = useTreasury(props?.treasury);
     return (
-        <section className="pt-[84px] pb-[72px] text-center">
+        <section className="md:pt-[84px] md:pb-[72px] py-12 text-center">
             <div className="container">
-                <span className="text-18 font-bold bg-white/[.16] py-3 px-7 rounded-full mb-5 inline-block">
+                <span className="md:text-18 text-16 font-bold bg-white/[.16] py-3 px-7 rounded-full mb-5 inline-block">
                     DAO Treasury
                 </span>
-                <h2 className="text-37 mb-4 font-bold">
+                <h2 className="md:text-37 text-3xl mb-4 font-bold">
                     Our Treasury RFV* is growing fast
                 </h2>
-                <div className="flex items-center justify-center py-5">
-                    <div className="flex-shrink-0 pr-4 text-left">
-                        <h5 className="text-22 font-bold">
+                <div className="flex items-center lg:justify-center py-5 flex-wrap justify-between">
+                    <div className="flex-shrink-0 pr-4 text-left order-2">
+                        <h5 className="md:text-22 text-18 font-bold">
                             {treasuryFromPrice}
                         </h5>
-                        <p className="text-18">{treasuryFromDate}</p>
+                        <p className="md:text-18 text-16">{treasuryFromDate}</p>
                     </div>
 
-                    <div className="w-full bg-light-green rounded-full h-8 relative">
+                    <div className="w-full bg-light-green rounded-full h-8 relative order-1 lg:order-2 lg:max-w-[calc(100%-270px)]">
                         <div
                             className="bg-lighter-green h-8 rounded-s-full"
                             style={{ width: treasuryPercentage }}
@@ -40,9 +40,9 @@ export default function Treasury(props) {
                         </span>
                     </div>
 
-                    <div className="flex-shrink-0 pl-6 text-left">
-                        <h5 className="text-22 font-bold">{treasuryToPrice}</h5>
-                        <p className="text-18">{treasuryToDate}</p>
+                    <div className="flex-shrink-0 pl-6 text-left order-2">
+                        <h5 className="md:text-22 text-18 font-bold">{treasuryToPrice}</h5>
+                        <p className="md:text-18 text-16">{treasuryToDate}</p>
                     </div>
                 </div>
                 <Button
@@ -50,7 +50,7 @@ export default function Treasury(props) {
                     rounded
                     className="inline-flex items-center"
                 >
-                    <IconUnicorn className="mr-2 flex-shrink-0 text-22" />
+                    <IconUnicorn className="mr-2 flex-shrink-0 md:text-22 text-18" />
                     Buy Now <ArrowRight className="ml-2 flex-shrink-0" />
                 </Button>
                 <h6 className="text-16 text-green font-bold py-4">
