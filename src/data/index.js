@@ -1,7 +1,7 @@
 export const treasury = {
     from: {
         price: 100000,
-        date: "Feb 09, 2022",
+        date: "Feb 09, 2021",
     },
     to: {
         price: 2691883,
