@@ -5,7 +5,7 @@ import Button from "./button";
 export default function Banner() {
     return (
         <div
-            className={`bg-no-repeat lg:pb-36 lg:pt-60 sm:pt-32 sm:pb-24 pt-36 pb-20 bg-section-gradient relative overflow-hidden before:absolute before:right-[5%] before:bottom-[-12%] before:bg-banner-img before:bg-right-bottom before:bg-no-repeat before:w-full before:h-full before:opacity-25 before:lg:opacity-100 before:bg-cover before:md:bg-auto`}
+            className={`bg-no-repeat lg:pb-36 lg:pt-60 sm:pt-32 sm:pb-24 pt-36 pb-20 bg-banner-gradient relative overflow-hidden before:absolute before:right-[5%] before:bottom-[-12%] before:bg-banner-img before:bg-right-bottom before:bg-no-repeat before:w-full before:h-full before:opacity-25 before:lg:opacity-100 before:bg-cover before:md:bg-auto`}
         >
             <div className="container">
                 <div className="max-w-[445px] relative z-10">

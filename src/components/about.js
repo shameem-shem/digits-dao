@@ -3,7 +3,7 @@ import { aboutImg, digitsEffect } from "@/assets";
 
 export default function About() {
     return (
-        <section className="pt-[26px] pb-11 bg-section-gradient bg-no-repeat relative overflow-hidden before:absolute before:top-[84px] before:left-[-240px] before:w-[1022px] before:h-[718px] before:bg-line before:bg-left before:bg-no-repeat before:bg-contain">
+        <section className="pt-[26px] pb-11 bg-banner-gradient bg-no-repeat relative overflow-hidden before:absolute before:top-[84px] before:left-[-240px] before:w-[1022px] before:h-[718px] before:bg-line before:bg-left before:bg-no-repeat before:bg-contain">
             <div className="container relative z-10">
                 <h3 className="md:text-37 text-3xl font-bold text-center lg:mb-[4.5rem] sm:mb-10 mb-4">
                     About Digits DAO
