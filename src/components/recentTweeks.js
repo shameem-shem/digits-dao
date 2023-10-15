@@ -2,7 +2,7 @@
 // import { noPreSale, noSeed, noVcs } from "@/assets";
 // import Image from "next/image";
 import { Tweet } from "react-tweet";
-import { twitterFeedsIds } from "@/data";
+// import { twitterFeedsIds } from "@/data";
 
 export default function RecentTweeks(props) {
     return (

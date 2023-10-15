@@ -1,7 +1,7 @@
 // import React from 'react'
 // import { treasury } from "@/data/treasury";
-import { useTreasury } from "@/hooks/useTreasury";
 import Button from "./button";
+import { useTreasury } from "@/hooks/useTreasury";
 import { ArrowRight, IconUnicorn } from "./icons";
 
 export default function Treasury(props) {

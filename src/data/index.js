@@ -1,11 +1,11 @@
 export const treasury = {
-    from: {
-        price: 100000,
-        date: "Feb 09, 2022",
+    'from': {
+        'price': '100000',
+        'date': "Feb 09, 2022",
     },
-    to: {
-        price: 2691883,
-        date: "Jan 31, 2023",
+    'to': {
+        'price': '2691883',
+        'date': "Jan 31, 2023",
     },
 };
 
