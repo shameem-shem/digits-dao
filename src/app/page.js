@@ -5,13 +5,12 @@ import Statistics from "@/components/statistics";
 import Features from "@/components/features";
 import FAQ from "@/components/faq";
 import RecentTweeks from "@/components/recentTweeks";
-import { getData, treasury, twitterFeedsIds } from "@/data";
-// import {tres}
+import { getData } from "@/data";
 
 export default async function Home() {
     const tweets = await getData("twitter");
     const treasury = await getData("treasury");
-   
+   console.log(tweets)
     return (
         <main className="">
             <Banner />
