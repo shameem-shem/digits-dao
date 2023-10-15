@@ -10,7 +10,6 @@ import { getData } from "@/data";
 export default async function Home() {
     const tweets = await getData("twitter");
     const treasury = await getData("treasury");
-   console.log(tweets)
     return (
         <main className="">
             <Banner />

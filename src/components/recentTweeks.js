@@ -1,10 +1,11 @@
-// import React from 'react'
-// import { noPreSale, noSeed, noVcs } from "@/assets";
-// import Image from "next/image";
+"use client"
+import { useEffect } from "react";
 import { Tweet } from "react-tweet";
-// import { twitterFeedsIds } from "@/data";
 
 export default function RecentTweeks(props) {
+    useEffect(()=>{
+        console.log(props)
+    },[])
     return (
         <section className="pt-7 pb-16 bg-section-gradient bg-no-repeat">
             <div className="container">
@@ -19,15 +20,6 @@ export default function RecentTweeks(props) {
                             </div>
                         );
                     })}
-                    {/* <div data-theme="light">
-                        <Tweet id="1706813790468071823" />
-                    </div>
-                    <div data-theme="light">
-                        <Tweet id="1710069164130365895" />
-                    </div>
-                    <div data-theme="light">
-                        <Tweet id="1709690305941754008" />
-                    </div> */}
                 </div>
             </div>
         </section>
