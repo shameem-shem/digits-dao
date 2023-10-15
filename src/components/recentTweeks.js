@@ -5,7 +5,7 @@ import { Tweet } from "react-tweet";
 export default function RecentTweeks(props) {
     useEffect(()=>{
         console.log(props?.tweets)
-    },[])
+    },[props?.tweets])
     return (
         <section className="pt-7 pb-16 bg-section-gradient bg-no-repeat">
             <div className="container">
