@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 // import { treasury } from "@/data";
 
 export async function GET(request) {
-    return NextResponse.json({
+    return NextResponse.json(JSON.parse(JSON.stringify({
         data: {
             from: {
                 price: 100000,
@@ -13,5 +13,5 @@ export async function GET(request) {
                 date: "Jan 31, 2023",
             },
         },
-    });
+    })));
 }
