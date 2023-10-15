@@ -9,7 +9,7 @@ import { getData, treasury, twitterFeedsIds } from "@/data";
 // import {tres}
 
 export default async function Home() {
-    // const tweets = await getData("twitter");
+    const tweets = await getData("twitter");
     // const treasury = await getData("treasury");
    
     return (
@@ -20,7 +20,7 @@ export default async function Home() {
             <Statistics />
             <Features />
             <FAQ />
-            {/* <RecentTweeks tweets={tweets} /> */}
+            <RecentTweeks tweets={tweets} />
         </main>
     );
 }
