@@ -1,7 +1,7 @@
 export const treasury = {
     from: {
         price: 100000,
-        date: "Feb 09, 2022",
+        date: "Feb 09, 2021",
     },
     to: {
         price: 2691883,
@@ -15,9 +15,8 @@ export const twitterFeedsIds = [
     "1709690305941754008",
 ];
 
-
-export async function getData(route){
+export async function getData(route) {
     return await fetch(`${process.env.BASE_URL}api/${route}`)
-    .then((respose) => respose.json())
-    .then((data) => data.data);
+        .then((respose) => respose.json())
+        .then((data) => data.data);
 }

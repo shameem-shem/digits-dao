@@ -6,10 +6,10 @@ export default function Statistics() {
   return (
     <section className="pt-8 pb-16">
         <div className="container">
-            <h2 className="text-37 font-bold text-center mb-8">Our Statistics</h2>
-            <div className="grid grid-cols-2">
+            <h2 className="md:text-37 text-3xl font-bold text-center mb-8">Our Statistics</h2>
+            <div className="grid md:grid-cols-2">
                 <div>
-                    <h3 className="text-41 font-bold">Tokenomics</h3>
+                    <h3 className="md:text-41 text-3xl font-bold">Tokenomics</h3>
                     <ul className="list-[square]">
                         <li className="mb-4">Each buy/sell transaction comes with a 10% tax. This tax is distributed and split between the treasury and reflections.</li>
                         <li className="mb-4">The treasury is used for farming between different low/medium/high risk cross chain strategies.</li>

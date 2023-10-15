@@ -20,13 +20,14 @@ module.exports = {
         },
         extend: {
             backgroundImage: {
-                "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-                "gradient-conic":
-                    "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+                // "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+                // "gradient-conic":
+                //     "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
                 "banner-img": "url('/images/banner.png')",
-                "section-gradient":
-                    "radial-gradient(closest-side at 87% 100%, #2F3C9E 0%, #253084 12%, #192264 30%, #10194D 47%, #0B133F 63%, #0A113B 78%, #000020 100%)",
-                'line':"url('/images/bg-line-left.svg')"
+                // "section-gradient": "radial-gradient(closest-side at 87% 100%, #2F3C9E 0%, #253084 12%, #192264 30%, #10194D 47%, #0B133F 63%, #0A113B 78%, #000020 100%)",
+                'section-gradient': 'linear-gradient(to right, #000020,#0e1646,#121b53)',
+                'line':"url('/images/bg-line-left.svg')",
+                'banner-gradient': 'linear-gradient(to right, #000020,#0B133F,#0c1543)',
             },
             colors: {
                 "dark-blue": "#141C53",

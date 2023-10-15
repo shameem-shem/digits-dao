@@ -8,7 +8,14 @@
 } */
 
 section .react-tweet-theme{
+    min-width: auto;
     --tweet-quoted-body-margin:0;
     --tweet-body-font-size: .9375rem;
     --tweet-body-line-height: 1.25rem;
+    --tweet-container-margin: 0 0;
+}
+@media (max-width:640px) {
+    [class*="tweet-actions"]{
+        white-space:normal;
+    }
 }

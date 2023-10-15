@@ -10,7 +10,7 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
     return (
         <div className="wrapper border-b border-[#c7c0c0] last:border-b-0">
             <button
-                className={`question-container flex items-center justify-between text-18 font-bold py-5 w-full`}
+                className={`question-container flex items-center justify-between text-18md:text-18 text-16 font-bold py-5 w-full text-left`}
                 onClick={onClick}
             >
                 {question}
