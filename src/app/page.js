@@ -14,7 +14,7 @@ import { getData, treasury, twitterFeedsIds } from "@/data";
 export default async function Home() {
     // const router = useRouter()
     const tweets = await getData("twitter");
-    const treasury = await getData("treasury");
+    // const treasury = await getData("treasury");
     // console.log( router); 
     // useEffect(()=>{
     //     console.log(JSON.stringify(twitterFeedsIds))
@@ -22,7 +22,7 @@ export default async function Home() {
     return (
         <main className="">
             <Banner />
-            <Treasury treasury={treasury} /> 
+            {/* <Treasury treasury={treasury} />  */}
             <About />
             <Statistics />
             <Features />
