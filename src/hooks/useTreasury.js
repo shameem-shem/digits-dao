@@ -1,6 +1,7 @@
 // import { treasury } from "@/data ";
 
 export function useTreasury(treasury) {
+    console.log(treasury);
     const formatter = new Intl.NumberFormat("en-US", {
         style: "currency",
         currency: "USD",
@@ -13,17 +14,17 @@ export function useTreasury(treasury) {
     const treasuryFromDate = treasury?.from?.date;
     const treasuryToPrice = formatter.format(toPrice);
     const treasuryToDate = treasury?.to?.date;
-    const diffrence = toPrice - fromPrice;
-    const treasuryDiffrence = `${diffrence < 0 ? "-" : "+"}${formatter.format(
-        toPrice - fromPrice
-    )}`;
+    // const diffrence = toPrice - fromPrice;
+    // const treasuryDiffrence = `${diffrence < 0 ? "-" : "+"}${formatter.format(
+    //     toPrice - fromPrice
+    // )}`;
     const treasuryPercentage = `${(fromPrice / toPrice) * 100}%`;
     return {
         treasuryFromPrice,
         treasuryFromDate,
         treasuryToPrice,
         treasuryToDate,
-        treasuryDiffrence,
+        // treasuryDiffrence,
         treasuryPercentage,
     };
 }
