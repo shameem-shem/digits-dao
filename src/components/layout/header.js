@@ -20,7 +20,7 @@ export default function Header() {
                                         href={nav.link}
                                         target="_blank"
                                         rel="noreferrer noopener"
-                                        className="py-2 px-7 text-15 font-bold block"
+                                        className="py-2 px-8 text-15 font-bold block"
                                     >
                                         {nav.label}
                                     </a>
@@ -28,7 +28,7 @@ export default function Header() {
                             );
                         })}
                     </ul>
-                    <SocialNav className="hidden xl:flex" />
+                    <SocialNav className="hidden xl:flex" isHeader />
                     {/* <Button className="ml-auto" type="green">
                         Connect Wallet
                     </Button> */}
