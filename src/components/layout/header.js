@@ -20,7 +20,7 @@ export default function Header() {
                                         href={nav.link}
                                         target="_blank"
                                         rel="noreferrer noopener"
-                                        className="py-2 px-5 text-15 font-bold block"
+                                        className="py-2 px-7 text-15 font-bold block"
                                     >
                                         {nav.label}
                                     </a>

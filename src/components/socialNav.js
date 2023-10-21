@@ -10,7 +10,7 @@ export default function SocialNav({ className }) {
                     const IconComponent = iconsMap[social.icon];
                     return (
                         <li key={sindex}>
-                            <a href={social.link} className="p-2 text-15 block">
+                            <a href={social.link} className="py-2 px-7 text-15 block">
                                 <IconComponent className="block" />
                             </a>
                         </li>
