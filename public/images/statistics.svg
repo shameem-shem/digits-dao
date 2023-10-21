@@ -1,0 +1,115 @@
+<svg
+    width="565.192"
+    height="380.542"
+    viewBox="0 0 565.192 380.542"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <defs>
+        <clipPath id="clip-path">
+            <rect width="565.192" height="380.542" fill="none" />
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <rect width="301.41" height="301.41" fill="none" />
+        </clipPath>
+        <clipPath id="clip-path-3">
+            <path
+                fill="none"
+                transform="translate(-356.084 -120.051)"
+                d="M356.084,219.389a99.338,99.338,0,1,0,99.338-99.338,99.338,99.338,0,0,0-99.338,99.338"
+            />
+        </clipPath>
+        <radialGradient
+            cx="0.5"
+            cy="0.5"
+            r="0.5"
+            id="radial-gradient"
+            gradientUnits="objectBoundingBox"
+        >
+            <stop offset="0" stop-color="#040f60" />
+            <stop offset="0.009" stop-color="#040f60" />
+            <stop offset="1" stop-color="#040f5f" />
+        </radialGradient>
+    </defs>
+    <g clip-path="url(#clip-path)">
+        <g transform="translate(164.387 21.425)">
+            <g clip-path="url(#clip-path-2)">
+                <path
+                    d="M-2730.09-2041.025c.02-.041.04-.07.06-.111h55.68a150.3,150.3,0,0,1-10.55,24.55Zm.06-.111a99.251,99.251,0,0,0,11.271-56.97,99.329,99.329,0,0,0-25.47-56.97c-.741-.82-1.5-1.62-2.281-2.409a98.981,98.981,0,0,0-71.08-29.94v-51.37a150.309,150.309,0,0,1,113.161,51.17v.01a150.072,150.072,0,0,1,36.8,84.46,145.328,145.328,0,0,1,.75,15.061,150.421,150.421,0,0,1-7.47,46.959Z"
+                    transform="translate(2968.29 2238.795)"
+                    fill="#0a8fff"
+                    stroke="rgba(0,0,0,0)"
+                    stroke-width="1"
+                />
+                <path
+                    id="Path_236"
+                    data-name="Path 236"
+                    d="M150.7,51.37V0A150.712,150.712,0,0,0,58.08,269.6l31.57-40.52a99.821,99.821,0,0,1-11.04-10.02c-.19-.2-.38-.4-.56-.6-.2-.21-.39-.42-.59-.64a99.2,99.2,0,0,1-26.1-66.97v-.14A99.345,99.345,0,0,1,150.7,51.37m87.5,146.4a99.365,99.365,0,0,1-148.55,31.3v.01L58.08,269.6a150.75,150.75,0,0,0,225.31-47.39Z"
+                    fill="#f6891e"
+                />
+            </g>
+        </g>
+    </g>
+    <g transform="translate(214.651 72.368)">
+        <g clip-path="url(#clip-path-3)">
+            <rect
+                width="198.677"
+                height="198.677"
+                transform="translate(0 0)"
+                fill="url(#radial-gradient)"
+            />
+        </g>
+    </g>
+    <text
+        fill="#fff"
+        font-size="21"
+        transform="translate(272.077 153.247)"
+        font-family="MyriadPro-Regular, Myriad Pro"
+    >
+        <tspan x="0" y="0">Total</tspan>
+        <tspan y="0">Tax</tspan>
+    </text>
+    <text
+        fill="#fff"
+        font-size="41"
+        font-weight="800"
+        transform="translate(272.077 195.752)"
+        font-family="Montserrat-ExtraBold, Montserrat"
+    >
+        <tspan x="0" y="0">
+            5%
+        </tspan>
+    </text>
+
+    <g clip-path="url(#clip-path)">
+        <path
+            fill="none"
+            stroke="#fff"
+            stroke-width="1"
+            d="M708.894,94.413,736.516,55.5h89.853"
+            transform="translate(-281.567 -22.045)"
+        />
+        <text
+            fill="#fff"
+            font-size="19"
+            transform="translate(436.797 18)"
+            font-family="Montserrat-Regular, Montserrat"
+        >
+            <tspan x="0" y="0">Treasuy 5%</tspan>
+        </text>
+        <g transform="translate(-120 0)">
+            <text
+                fill="#fff"
+                font-size="19"
+                transform="translate(396.797 374.801)"
+                font-family="Montserrat-Regular, Montserrat"
+            >
+                <tspan x="0" y="0">Treasuy</tspan>
+            </text>
+            <path
+                d="M787.08,608.768a6.1,6.1,0,1,1-6.1-6.1,6.1,6.1,0,0,1,6.1,6.1"
+                transform="translate(-400.235 -239.376)"
+                fill="#0a8fff"
+            />
+        </g>
+    </g>
+</svg>

@@ -10,7 +10,7 @@ export default function Treasury(props) {
         treasuryFromDate,
         treasuryToPrice,
         treasuryToDate,
-        treasuryDiffrence,
+        // treasuryDiffrence,
         treasuryPercentage,
     } = useTreasury(props?.treasury);
     return (
@@ -36,7 +36,7 @@ export default function Treasury(props) {
                             style={{ width: treasuryPercentage }}
                         ></div>
                         <span className="text-dark-blue font-bold text-13 absolute left-1/2 top-0 leading-8">
-                            {treasuryDiffrence}
+                            {treasuryToPrice}
                         </span>
                     </div>
 
@@ -46,9 +46,12 @@ export default function Treasury(props) {
                     </div>
                 </div>
                 <Button
-                    type="green"
                     rounded
+                    type="green"
+                    target="_blank"
+                    rel="noreferrer noopener"
                     className="inline-flex items-center"
+                    href="https://app.1inch.io/#/1/simple/swap/DAI/0xBE56ab825fD35678A32dc35bc4EB17e238e1404F"
                 >
                     <IconUnicorn className="mr-2 flex-shrink-0 md:text-22 text-18" />
                     Buy Now <ArrowRight className="ml-2 flex-shrink-0" />

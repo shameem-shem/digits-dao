@@ -18,7 +18,9 @@ export default function Header() {
                                 <li key={index}>
                                     <a
                                         href={nav.link}
-                                        className="py-2 px-5 text-15 font-bold block"
+                                        target="_blank"
+                                        rel="noreferrer noopener"
+                                        className="py-2 px-8 text-15 font-bold block"
                                     >
                                         {nav.label}
                                     </a>
@@ -26,10 +28,10 @@ export default function Header() {
                             );
                         })}
                     </ul>
-                    <SocialNav className="hidden xl:flex" />
-                    <Button className="ml-auto" type="green">
+                    <SocialNav className="hidden xl:flex" isHeader />
+                    {/* <Button className="ml-auto" type="green">
                         Connect Wallet
-                    </Button>
+                    </Button> */}
                 </div>
             </div>
         </header>

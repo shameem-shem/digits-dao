@@ -4,8 +4,8 @@ export const treasury = {
         date: "Feb 09, 2021",
     },
     to: {
-        price: 2691883,
-        date: "Jan 31, 2023",
+        price: 2779120,
+        date: "Sep 31, 2023",
     },
 };
 

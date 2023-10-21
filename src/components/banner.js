@@ -16,9 +16,12 @@ export default function Banner() {
                         and distribute profits back to holders.
                     </p>
                     <Button
-                        type="light-pink"
                         rounded
-                        className="flex items-center"
+                        target="_blank"
+                        type="light-pink"
+                        rel="noreferrer noopener"
+                        className="inline-flex items-center"
+                        href="https://digitsdao.finance/app/"
                     >
                         Dashboard
                         <ArrowRight className="ml-2" />
