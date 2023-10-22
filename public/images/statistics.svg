@@ -37,14 +37,12 @@
                     d="M-2730.09-2041.025c.02-.041.04-.07.06-.111h55.68a150.3,150.3,0,0,1-10.55,24.55Zm.06-.111a99.251,99.251,0,0,0,11.271-56.97,99.329,99.329,0,0,0-25.47-56.97c-.741-.82-1.5-1.62-2.281-2.409a98.981,98.981,0,0,0-71.08-29.94v-51.37a150.309,150.309,0,0,1,113.161,51.17v.01a150.072,150.072,0,0,1,36.8,84.46,145.328,145.328,0,0,1,.75,15.061,150.421,150.421,0,0,1-7.47,46.959Z"
                     transform="translate(2968.29 2238.795)"
                     fill="#0a8fff"
-                    stroke="rgba(0,0,0,0)"
-                    stroke-width="1"
+                    stroke="#0a8fff"
                 />
                 <path
-                    id="Path_236"
-                    data-name="Path 236"
                     d="M150.7,51.37V0A150.712,150.712,0,0,0,58.08,269.6l31.57-40.52a99.821,99.821,0,0,1-11.04-10.02c-.19-.2-.38-.4-.56-.6-.2-.21-.39-.42-.59-.64a99.2,99.2,0,0,1-26.1-66.97v-.14A99.345,99.345,0,0,1,150.7,51.37m87.5,146.4a99.365,99.365,0,0,1-148.55,31.3v.01L58.08,269.6a150.75,150.75,0,0,0,225.31-47.39Z"
-                    fill="#f6891e"
+                    fill="#0a8fff"
+                    stroke="#0a8fff"
                 />
             </g>
         </g>
@@ -65,8 +63,7 @@
         transform="translate(272.077 153.247)"
         font-family="MyriadPro-Regular, Myriad Pro"
     >
-        <tspan x="0" y="0">Total</tspan>
-        <tspan y="0">Tax</tspan>
+        <tspan x="0" y="0">Total Tax</tspan>
     </text>
     <text
         fill="#fff"
@@ -94,7 +91,7 @@
             transform="translate(436.797 18)"
             font-family="Montserrat-Regular, Montserrat"
         >
-            <tspan x="0" y="0">Treasuy 5%</tspan>
+            <tspan x="0" y="0">Treasury 5%</tspan>
         </text>
         <g transform="translate(-120 0)">
             <text
@@ -103,7 +100,7 @@
                 transform="translate(396.797 374.801)"
                 font-family="Montserrat-Regular, Montserrat"
             >
-                <tspan x="0" y="0">Treasuy</tspan>
+                <tspan x="0" y="0">Treasury</tspan>
             </text>
             <path
                 d="M787.08,608.768a6.1,6.1,0,1,1-6.1-6.1,6.1,6.1,0,0,1,6.1,6.1"
