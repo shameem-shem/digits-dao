@@ -57,7 +57,7 @@ export default function Treasury(props) {
                     Buy Now <ArrowRight className="ml-2 flex-shrink-0" />
                 </Button>
                 <h6 className="text-16 text-green font-bold py-4">
-                    SLIPPAGE 12%
+                    SLIPPAGE 7%
                 </h6>
                 <p className="mb-0 text-13">
                     *RFV (Risk free Value) - Value of all treasury assets in USD

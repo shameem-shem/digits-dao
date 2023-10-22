@@ -1,7 +1,6 @@
 // import { treasury } from "@/data ";
 
 export function useTreasury(treasury) {
-    console.log(treasury);
     const formatter = new Intl.NumberFormat("en-US", {
         style: "currency",
         currency: "USD",
