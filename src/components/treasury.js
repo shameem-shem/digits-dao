@@ -22,7 +22,7 @@ export default function Treasury(props) {
                 <h2 className="md:text-37 text-3xl mb-4 font-bold">
                     Our Treasury RFV* is growing fast
                 </h2>
-                <div className="flex items-center lg:justify-center py-5 flex-wrap justify-between">
+                <div className="flex items-center lg:justify-center py-5  justify-between">
                     <div className="flex-shrink-0 pr-4 text-left order-2">
                         <h5 className="md:text-22 text-18 font-bold">
                             {treasuryFromPrice}
@@ -30,7 +30,7 @@ export default function Treasury(props) {
                         <p className="md:text-18 text-16">{treasuryFromDate}</p>
                     </div>
 
-                    <div className="w-full bg-light-green rounded-full h-8 relative order-1 lg:order-2 lg:max-w-[calc(100%-270px)]">
+                    <div className="w-full bg-light-green rounded-full h-8 relative order-1 lg:order-2 overflow-hidden">
                         <div
                             className="bg-lighter-green h-8 rounded-s-full"
                             style={{ width: treasuryPercentage }}

@@ -5,7 +5,7 @@ export function useTreasury(treasury) {
         style: "currency",
         currency: "USD",
         minimumFractionDigits: 0,
-        maximumFractionDigits: 0,
+        maximumFractionDigits: 2,
     });
     const fromPrice = +treasury?.from?.price;
     const toPrice = +treasury?.to?.price;
